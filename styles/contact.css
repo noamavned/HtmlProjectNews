@@ -1,0 +1,55 @@
+h1 {
+    font-size: 2vmax;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#Contact * {
+    font-size: 1.3vmax;
+    color: #262626;
+    transition: 0.1s;
+}
+
+#Contact input[type="text"],
+#Contact input[type="email"],
+#message {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 0.5vmax;
+    font-size: 1.2vmax;
+    resize: vertical;
+}
+
+button {
+    background: #be4b4b;
+    color: white !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.5vmax;
+    cursor: pointer;
+    font-size: 1.2vmax;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 4vmax;
+    }
+
+    #Contact * {
+        font-size: 3vmax;
+    }
+
+    #Contact input[type="text"],
+    #Contact input[type="email"],
+    #message {
+        font-size: 2.5vmax;
+    }
+
+    button {
+        font-size: 2.5vmax;
+    }
+    
+}
